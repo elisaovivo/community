@@ -1,7 +1,9 @@
 ## IT社区
 
 ## 资料
-https://spring.io/guides
-
+[Spring文档](https://spring.io/guides)
+[Bootstrap](https://v3.bootcss.com/getting-started/)
+[Github OAuth](https://developer.github.com/apps/building-oauth-apps/)
 ## 工具
-https://git-scm.com/
+[Git](https://git-scm.com/)
+[visual-paradigm](https://www.visual-paradigm.com)
