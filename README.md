@@ -8,7 +8,7 @@
 ## 工具
 [Git](https://git-scm.com/)
 [visual-paradigm](https://www.visual-paradigm.com)
-
+[Flyway](https://flywaydb.org/getstarted/firststeps/maven)
 ## 脚本
 ```sql
 create table USER
@@ -23,4 +23,8 @@ create table USER
 		primary key (ID)
 );
 
+```
+
+```bash
+mvn flyway:migrate
 ```
