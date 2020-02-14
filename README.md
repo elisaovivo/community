@@ -4,7 +4,7 @@
 [Spring文档](https://spring.io/guides)
 [Bootstrap](https://v3.bootcss.com/getting-started/)
 [Github OAuth](https://developer.github.com/apps/building-oauth-apps/)
-[Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html)
+[Spring](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#boot-features-embedded-database-support)
 ## 工具
 [Git](https://git-scm.com/)
 [visual-paradigm](https://www.visual-paradigm.com)
