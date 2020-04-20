@@ -43,7 +43,9 @@ public class AuthorizeController {
         accessTokenDTO.setRedirect_uri(redirectUri);
         accessTokenDTO.setState(state);
         String aceessToken = githubProvider.getAceessToken(accessTokenDTO);
+        System.out.println(aceessToken);
         GithubUser githubUser = githubProvider.getUser(aceessToken);
+        System.out.println(githubUser.getName());
         if(githubUser!=null  && githubUser.getId() != null){
             User user = new User();
             String token = UUID.randomUUID().toString();
@@ -55,6 +57,7 @@ public class AuthorizeController {
             user.setAvatarUrl(githubUser.getAvatarUrl());
             userMapper.insert(user);
             response.addCookie(new Cookie("token",token));
+
             return "redirect:/";
             //登陆成功
         }else {

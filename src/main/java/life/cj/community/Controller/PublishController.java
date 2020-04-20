@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Created by codedrinker on 2019/5/2.
- */
+
 @Controller
 public class PublishController {
 
@@ -71,7 +69,6 @@ public class PublishController {
             model.addAttribute("error", "用户未登录");
             return "publish";
         }
-
         Question question = new Question();
         question.setTitle(title);
         question.setDescription(description);
