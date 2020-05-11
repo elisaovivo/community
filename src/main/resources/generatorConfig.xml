@@ -38,7 +38,6 @@
         <table tableName="question" domainObjectName="Question">
             <columnOverride column="ID" javaType="java.lang.Integer" jdbcType="INTEGER"></columnOverride>
             <columnOverride column="creator" javaType="java.lang.Integer" jdbcType="INTEGER"></columnOverride>
-
         </table>
     </context>
 </generatorConfiguration>
